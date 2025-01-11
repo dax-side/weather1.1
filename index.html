@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background: #f0f0f0;
+      }
+
+      .container {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        width: 80%;
+        max-width: 400px;
+      }
+
+      h1 {
+        color: #333;
+      }
+
+      input,
+      button {
+        width: 80%;
+        padding: 10px;
+        margin: 10px 0;
+        font-size: 16px;
+        border-radius: 5px;
+      }
+
+      input {
+        border: 1px solid #ddd;
+      }
+
+      button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #45a049;
+      }
+
+      .result p {
+        font-size: 18px;
+        color: #333;
+      }
+
+      .weather-icon {
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Weather App</h1>
+      <form action="/" method="post">
+        <input
+          type="text"
+          name="cityName"
+          placeholder="e.g., London"
+          required
+        />
+        <button type="submit">Go</button>
+      </form>
+
+      <div class="result">
+        <p id="weather-desc"></p>
+        <p id="temp"></p>
+        <img id="weather-icon" class="weather-icon" src="" alt="Weather Icon" />
+      </div>
+    </div>
+  </body>
+</html>
+v
