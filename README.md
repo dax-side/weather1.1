@@ -13,3 +13,4 @@ A simple weather application built with Node.js and Express. The app allows user
 - **Node.js**: The backend server.
 - **Express**: A web framework for Node.js.
 - **OpenWeatherMap API**: The API to fetch weather data.
+![wthr](https://github.com/user-attachments/assets/a4dc59ba-741d-4c1f-8ca2-248219fd1561)
